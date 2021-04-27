@@ -9,12 +9,15 @@ Part I: Installation and Initial Setup
 Part II: Analyzing Categories (Business dataset)
 
 
-how many unique categories are represented in this dataset?
-What are the top 20 most popular business categories?
+How many unique categories are represented in this dataset?
+What are the top 20 most popular business categories?(Horizontal Bar Chart)
+
+
 Part III: Do Yelp Reviews biased from the average rating? (Review dataset)
 
-Is it true that people who write a review are those who are more dissatisfied or more satisfied with the service received？
-Part IV: Analzing Users (User dataset)
+Do Yelp Reviews Skew Negative? Is it true that people who write a review are those who are more dissatisfied or more satisfied with the service received？
+
+Part IV: Analzing Users (User dataset join Business and Review Dataset)
 
 Should Elite users be trusted?
 
