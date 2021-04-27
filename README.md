@@ -1,10 +1,23 @@
 # Analyzing 10Gb of Yelp Reviews Data
 
-We will analyze a subset of Yelp's business, reviews and user data. This dataset comes to us from [Kaggle](https://www.kaggle.com/yelp-dataset/yelp-dataset) although we have taken steps to pull this data into a publis s3 bucket: `s3://sta9760-yelpdataset/yelp-light/*business.json`
+In this project, we are going to provision a Spark cluster on AWS EMR, connect it to a Jupyter Notebook and then run a series of queries using Pyspark based on Yelp's business, reviews and user data. This dataset uses AWS s3 bucket to load the data. The json format data is from [Kaggle](https://www.kaggle.com/yelp-dataset/yelp-dataset). The following are the steps to conduct the analysis.
 
-## [Analysis](https://github.com/mottaquikarim/STA9760_Project2_Yelp_Data_Analysis/blob/master/Analysis.ipynb)
+## Steps
 
-Note that the output of the code written is provided as a means to give you structure as you write your analysis. For **Parts I, II & III**, you must fill in the blanks (however way you want) to get the output provided in the file. (Mainly columns and aggregations, I don't care about the exact rows). For **Parts III and IV**, you are more flexibility to take the analysis further however you see fit.
+Part I: Installation and Initial Setup
+
+Part II: Analyzing Categories (Business dataset)
+
+
+how many unique categories are represented in this dataset?
+What are the top 20 most popular business categories?
+Part III: Do Yelp Reviews biased from the average rating? (Review dataset)
+
+Is it true that people who write a review are those who are more dissatisfied or more satisfied with the service received？
+Part IV: Analzing Users (User dataset)
+
+Should Elite users be trusted?
+
 
 ## Cluster and Notebook Configs
 
