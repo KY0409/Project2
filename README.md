@@ -23,6 +23,6 @@ Should Elite users be trusted?
 
 
 ## Cluster and Notebook Configs
-
-![notebook](https://github.com/KY0409/Project2/blob/main/notebook_configuration.png)
 ![cluster](https://github.com/KY0409/Project2/blob/main/cluster_configuration.png)
+![notebook](https://github.com/KY0409/Project2/blob/main/notebook_configuration.png)
+
